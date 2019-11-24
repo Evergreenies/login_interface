@@ -1,5 +1,10 @@
 # Login Interface
-Simple authentication and authentication system using Flask.
+#### Simple Authentication and Authorization system using Flask.
+
+Here, In this project i have covered - 
+* User Login.
+* Registration.
+* Reset password with token.
 
 #### Requirements and Specifications -
 * Python 3.6.5 and grater
@@ -13,10 +18,12 @@ And database used MySQL.
 $ virtualenv venv
 $ source venv/bin/activate
 </pre>
+
 * Install requirements:
 <pre>
 (venv) $ pip3 install -r requirements.txt
 </pre>
+
 * Configure database in config.py file:
 <pre>
 USERNAME = 'root'
@@ -24,11 +31,13 @@ PASSWORD = 'root'
 HOST = '127.0.0.1'
 DATABASE = 'flask_login'
 </pre>
+
 * Set environment variables:
 <pre>
 (venv) $ export EMAIL_USER='email'
 (venv) $ export EMAIL_PASSWORD='password'
 </pre>
+
 * Run project:
 <pre>
 (venv) $ python3 run.py
